@@ -35,11 +35,17 @@ UrbanCart/
 ├── app.py          → All Flask routes (6 routes)
 
 ├── database.py     → DB init, schema & product seeding
+
 ├── templates/
+
 │   ├── base.html   → Shared navbar layout
+
 │   ├── index.html  → Product catalog grid
+
 │   ├── cart.html   → Cart table + checkout
+
 │   └── orders.html → Order history
+
 └── static/css/
 └── style.css   → Custom design & animations
 
