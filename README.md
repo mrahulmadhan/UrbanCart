@@ -33,6 +33,7 @@ http://127.0.0.1:5000
 
 UrbanCart/
 ├── app.py          → All Flask routes (6 routes)
+
 ├── database.py     → DB init, schema & product seeding
 ├── templates/
 │   ├── base.html   → Shared navbar layout
