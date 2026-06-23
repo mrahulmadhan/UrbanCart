@@ -30,3 +30,24 @@ http://127.0.0.1:5000
 ```
 
 ## 📁 Project Structure
+
+UrbanCart/
+├── app.py          → All Flask routes (6 routes)
+├── database.py     → DB init, schema & product seeding
+├── templates/
+│   ├── base.html   → Shared navbar layout
+│   ├── index.html  → Product catalog grid
+│   ├── cart.html   → Cart table + checkout
+│   └── orders.html → Order history
+└── static/css/
+└── style.css   → Custom design & animations
+
+## 📸 Pages
+| Page | Route | Description |
+|------|-------|-------------|
+| Home | `/` | Product catalog |
+| Cart | `/cart` | Shopping cart |
+| Orders | `/orders` | Order history |
+
+## 👨‍💻 Author
+**Rahul Madhan** — B.Tech CSE (AIML) | GATE CS 2026 Qualified
